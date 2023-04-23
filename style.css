@@ -1,0 +1,99 @@
+body {
+    background: radial-gradient(circle at center, rgba(0,0,0,0.2), rgba(0,0,0,0.3)), url(foto_it.JPG);
+    background-size: cover;
+    color: white;
+    margin: 0px 80px;
+    font-family: 'Roboto Condensed', sans-serif;
+  }  
+h1 {
+    font-family:'Anton', sans-serif;
+    font-size: 100px;
+    padding-top: 40px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+p {
+    font-size: 26px;
+    text-align: right;
+    margin-left: 60%;
+    max-width: 100%;
+    word-wrap: break-word;
+}
+.bio{
+    margin-top: 150px;
+}
+ul{
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+ul li{
+    display: inline-block;
+}
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+ul li a:hover{
+    font-size: 35px;
+}
+@media only screen and (min-width: 640px) and (max-width: 800px){
+    body {
+        background-position: 50% 50%;
+    }
+    h1 {
+        font-size: 50px;
+        padding-top: 100px;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+    p {
+        font-size: 24px;
+        text-align: right;
+        margin-left: 60%;
+        word-wrap: break-word;
+    }
+    .bio{
+        margin-top: 100px;
+    }
+    ul{
+        text-align: center;
+        justify-content: center;
+    }
+    ul li a {
+        font-size: 20px;
+        padding: 10px;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 640px){
+    body {
+        background-position: 50% 50%;
+    }
+    h1 {
+        font-size: 50px;
+        padding-top: 100px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    p {
+        font-size: 18px;
+        text-align: justify;
+        margin: 50px 50px;
+    }
+    ul{
+        text-align: center;
+        justify-content: center;
+    }
+    ul li a {
+        font-size: 20px;
+        padding: 10px;
+    }
+}
